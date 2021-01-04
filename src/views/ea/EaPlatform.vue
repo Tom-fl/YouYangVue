@@ -156,7 +156,7 @@
             },
 
             // 封装的axios请求方法
-            crear(para, prot, src, callback) {
+            crear(para, prot, src) {
                 let data = this.$Qs.stringify(para);
                 this.$axios({
                     method: prot,
